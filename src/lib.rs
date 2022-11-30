@@ -10,7 +10,7 @@ pub struct GridFromCSV {
     pub path: String,
 }
 impl GridFromCSV {
-    fn new(path: String) -> Self {
+    pub fn new(path: String) -> Self {
         GridFromCSV { grid: Grid::new("some_unique_id"), path: path }
     }
 }
