@@ -14,3 +14,7 @@ impl GridFromCSV {
         GridFromCSV { grid: Grid::new("some_unique_id"), path: path }
     }
 }
+
+pub fn add_two(x: i32) -> i32 {
+    x + 2
+}
